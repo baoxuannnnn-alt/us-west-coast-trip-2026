@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#eef3f5" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#10171d" media="(prefers-color-scheme: dark)">
+  <meta name="description" content="2026 美国西海岸双人旅行手册：航班、酒店、自驾路线、倒计时与每日导航。">
+  <title>向西而行 · 美国旅行手册</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%231a6b73'/%3E%3Cpath d='M13 43c8-15 15-21 21-18 5 3 7 13 17 15' fill='none' stroke='%23f8d17a' stroke-width='6' stroke-linecap='round'/%3E%3Ccircle cx='17' cy='42' r='5' fill='%23f4f0e8'/%3E%3Ccircle cx='49' cy='40' r='5' fill='%23f4f0e8'/%3E%3C/svg%3E">
+  <style>
+    :root{color-scheme:light dark;--bg:#eef3f5;--paper:#fbfaf6;--paper2:#f4f7f7;--ink:#17242a;--muted:#66737a;--line:#d7e0e1;--sea:#1b6d75;--sea2:#45a0a4;--sun:#f2b84b;--coral:#de6d54;--violet:#796fa8;--green:#3d8467;--shadow:0 18px 54px rgba(28,54,61,.10);--radius:24px;--max:1100px}
+    @media(prefers-color-scheme:dark){:root{--bg:#0d151a;--paper:#141e24;--paper2:#19262d;--ink:#edf3f2;--muted:#aebcc0;--line:#2c3c44;--sea:#69c3c6;--sea2:#30868e;--sun:#f2c664;--coral:#ee8a72;--violet:#aaa0dc;--green:#79bd9d;--shadow:0 18px 54px rgba(0,0,0,.28)}}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif}a{color:inherit}button,summary{font:inherit}.shell{width:min(calc(100% - 28px),var(--max));margin:auto}.topbar{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 86%,transparent);backdrop-filter:blur(18px);border-bottom:1px solid color-mix(in srgb,var(--line) 72%,transparent)}.topbar .shell{display:flex;align-items:center;justify-content:space-between;min-height:58px;gap:16px}.brand{display:flex;align-items:center;gap:10px;font-weight:760;letter-spacing:.04em}.brand-mark{width:29px;height:29px;border-radius:10px;background:var(--sea);display:grid;place-items:center;color:white}.brand-mark svg{width:20px}.nav{display:flex;gap:5px;overflow:auto;scrollbar-width:none}.nav a{text-decoration:none;color:var(--muted);font-size:.86rem;padding:7px 10px;border-radius:999px;white-space:nowrap}.nav a:hover{background:var(--paper);color:var(--ink)}
+    main{padding:24px 0 80px}.focus{position:relative;overflow:hidden;border-radius:30px;background:linear-gradient(135deg,#115e68 0%,#247c83 52%,#5fa9a7 100%);color:#fff;box-shadow:var(--shadow);padding:clamp(23px,5vw,52px);min-height:318px}.focus:before,.focus:after{content:"";position:absolute;border-radius:50%;filter:blur(1px);opacity:.25}.focus:before{width:340px;height:340px;background:#f7c56a;right:-145px;top:-185px}.focus:after{width:220px;height:220px;border:30px solid #fff;right:5%;bottom:-165px}.eyebrow{margin:0 0 12px;font-size:.82rem;font-weight:750;letter-spacing:.16em;text-transform:uppercase;opacity:.78}.focus h1{margin:0;font-size:clamp(1.55rem,4.5vw,3rem);line-height:1.12;max-width:720px}.focus-meta{margin:12px 0 26px;opacity:.82}.countdown{display:grid;grid-template-columns:repeat(4,minmax(58px,108px));gap:9px;position:relative;z-index:2}.timebox{padding:13px 8px 11px;text-align:center;background:rgba(255,255,255,.13);border:1px solid rgba(255,255,255,.2);border-radius:17px;backdrop-filter:blur(8px)}.timebox strong{display:block;font-size:clamp(1.65rem,5vw,2.7rem);line-height:1;font-variant-numeric:tabular-nums}.timebox span{display:block;margin-top:7px;font-size:.72rem;opacity:.76}.focus-note{position:relative;z-index:2;margin:18px 0 0;font-size:.84rem;opacity:.74}
+    section{scroll-margin-top:74px;margin-top:30px}.section-head{display:flex;align-items:end;justify-content:space-between;gap:16px;margin:0 2px 14px}.section-head h2{margin:0;font-size:clamp(1.35rem,3vw,2rem);letter-spacing:-.02em}.section-head p{margin:0;color:var(--muted);font-size:.9rem;text-align:right}.card{background:var(--paper);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow)}
+    .map-card{overflow:hidden}.map-wrap{position:relative;background:linear-gradient(160deg,color-mix(in srgb,var(--sea) 12%,var(--paper)),var(--paper));padding:14px}.map-wrap svg{display:block;width:100%;height:auto;max-height:560px}.map-legend{display:flex;flex-wrap:wrap;gap:9px;padding:0 20px 19px}.legend{display:flex;align-items:center;gap:7px;font-size:.82rem;color:var(--muted)}.dot{width:10px;height:10px;border-radius:50%;background:var(--c)}
+    .alert{display:grid;grid-template-columns:auto 1fr;gap:12px;padding:17px 19px;border:1px solid color-mix(in srgb,var(--sun) 55%,var(--line));background:color-mix(in srgb,var(--sun) 10%,var(--paper));border-radius:18px;margin-top:14px}.alert-icon{width:28px;height:28px;border-radius:9px;display:grid;place-items:center;background:var(--sun);color:#342604;font-weight:900}.alert strong{display:block}.alert p{margin:2px 0 0;color:var(--muted);font-size:.91rem}
+    .booking-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.booking{padding:20px}.booking-top{display:flex;justify-content:space-between;gap:12px;align-items:start}.booking h3{margin:0;font-size:1.04rem}.pill{display:inline-flex;align-items:center;border-radius:999px;padding:3px 9px;font-size:.72rem;font-weight:720;white-space:nowrap;background:color-mix(in srgb,var(--green) 14%,var(--paper2));color:var(--green)}.pill.pending{background:color-mix(in srgb,var(--sun) 17%,var(--paper2));color:color-mix(in srgb,var(--sun) 70%,var(--ink))}.booking .dates{font-size:1.12rem;font-weight:780;margin:13px 0 8px}.booking p{margin:5px 0;color:var(--muted);font-size:.91rem}.booking a{color:var(--sea);text-underline-offset:3px}.flight-list{display:grid;gap:8px;margin-top:13px}.flight{display:grid;grid-template-columns:62px 1fr;gap:10px;padding-top:9px;border-top:1px solid var(--line)}.flight b{color:var(--sea)}.flight span{font-size:.88rem}
+    .days{display:grid;gap:14px}.day{overflow:hidden}.day summary{list-style:none;cursor:pointer;padding:19px 20px;display:grid;grid-template-columns:76px 1fr auto;align-items:center;gap:14px}.day summary::-webkit-details-marker{display:none}.date-big strong{display:block;font-size:1.36rem;line-height:1}.date-big span{font-size:.75rem;color:var(--muted)}.day-title h3{margin:0;font-size:1.04rem}.day-title p{margin:2px 0 0;font-size:.82rem;color:var(--muted)}.chev{width:30px;height:30px;border-radius:50%;display:grid;place-items:center;background:var(--paper2);transition:.2s}.day[open] .chev{transform:rotate(180deg)}.day-body{border-top:1px solid var(--line);padding:0 20px 22px}.routebox{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:15px;align-items:center;padding:15px 0}.routebox svg{display:block;width:100%;height:74px}.route-btn,.map-link{display:inline-flex;align-items:center;justify-content:center;text-decoration:none;border-radius:999px;padding:9px 13px;background:var(--sea);color:#fff;font-size:.82rem;font-weight:730;white-space:nowrap}.timeline{margin:0;padding:0;list-style:none}.timeline li{display:grid;grid-template-columns:78px 1fr;gap:12px;position:relative;padding:9px 0 13px}.timeline li:before{content:"";position:absolute;left:83px;top:25px;bottom:-8px;width:1px;background:var(--line)}.timeline li:last-child:before{display:none}.timeline time{font-variant-numeric:tabular-nums;color:var(--muted);font-size:.87rem;padding-top:1px}.event{position:relative;padding-left:14px}.event:before{content:"";position:absolute;left:-1px;top:8px;width:7px;height:7px;border-radius:50%;background:var(--day,var(--sea));box-shadow:0 0 0 4px var(--paper)}.event b{display:block}.event small{display:block;color:var(--muted);font-size:.78rem}.place{text-decoration:none;border-bottom:1px dashed color-mix(in srgb,var(--sea) 60%,transparent)}.tag{display:inline-block;margin-left:7px;padding:1px 7px;border-radius:999px;background:color-mix(in srgb,var(--sun) 18%,var(--paper));color:color-mix(in srgb,var(--sun) 62%,var(--ink));font-size:.69rem;font-weight:750;vertical-align:2px}
+    .two-col{display:grid;grid-template-columns:1fr 1fr;gap:14px}.list-card{padding:22px}.list-card h3{margin:0 0 13px}.plain-list{margin:0;padding:0;list-style:none}.plain-list li{position:relative;padding:10px 0 10px 21px;border-top:1px solid var(--line)}.plain-list li:first-child{border-top:0}.plain-list li:before{content:"";position:absolute;left:0;top:19px;width:8px;height:8px;border-radius:50%;background:var(--coral)}.plain-list small{display:block;color:var(--muted)}.tips{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.tip{padding:19px}.tip .icon{font-size:1.35rem}.tip h3{font-size:.98rem;margin:8px 0 5px}.tip p{margin:0;color:var(--muted);font-size:.86rem}.fineprint{margin:26px 2px 0;color:var(--muted);font-size:.78rem;text-align:center}
+    @media(max-width:760px){.topbar .shell{display:block;padding:9px 0}.brand{margin-bottom:7px}.nav{margin:0 -2px}.focus{min-height:300px}.booking-grid,.two-col,.tips{grid-template-columns:1fr}.day summary{grid-template-columns:62px 1fr auto;padding:16px}.day-body{padding:0 15px 18px}.routebox{grid-template-columns:1fr}.route-btn{justify-self:start}.timeline li{grid-template-columns:64px 1fr}.timeline li:before{left:69px}.section-head{align-items:start}.section-head p{max-width:42%;font-size:.78rem}.map-wrap{padding:4px}.booking{padding:17px}}
+    @media(max-width:390px){.countdown{gap:6px}.timebox{padding:11px 4px}.day summary{grid-template-columns:55px 1fr auto;gap:8px}.timeline li{grid-template-columns:57px 1fr;gap:9px}.timeline li:before{left:61px}.nav a{padding:6px 8px}.focus{padding:23px 18px}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.chev{transition:none}}
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="shell">
+      <div class="brand"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M3 17c3-6 6-8 9-7 2 1 3 5 8 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/><circle cx="5" cy="17" r="2" fill="currentColor"/><circle cx="20" cy="16" r="2" fill="currentColor"/></svg></span>向西而行</div>
+      <nav class="nav" aria-label="页面导航"><a href="#overview">总览</a><a href="#bookings">订单</a><a href="#days">逐日</a><a href="#todos">待办</a><a href="#tips">贴士</a></nav>
+    </div>
+  </header>
+  <main class="shell">
+    <section class="focus" aria-labelledby="focus-title">
+      <p class="eyebrow">此刻关注 · Next up</p>
+      <h1 id="focus-title">正在计算下一个行程事件…</h1>
+      <p class="focus-meta" id="focus-meta">所有时间均按事件所在地时区计算</p>
+      <div class="countdown" aria-label="倒计时">
+        <div class="timebox"><strong id="cd-days">–</strong><span>天</span></div><div class="timebox"><strong id="cd-hours">–</strong><span>时</span></div><div class="timebox"><strong id="cd-minutes">–</strong><span>分</span></div><div class="timebox"><strong id="cd-seconds">–</strong><span>秒</span></div>
+      </div>
+      <p class="focus-note" id="focus-note">设备位于任何时区都不会改变倒计时结果。</p>
+    </section>
+
+    <section id="overview">
+      <div class="section-head"><h2>行程总览</h2><p>9月29日—10月7日 · 旧金山至洛杉矶</p></div>
+      <div class="card map-card">
+        <div class="map-wrap">
+          <svg viewBox="0 0 920 520" role="img" aria-label="从旧金山沿加州海岸前往洛杉矶的手绘路线图">
+            <defs>
+              <filter id="rough"><feTurbulence baseFrequency=".012 .035" numOctaves="2" seed="8" result="noise"/><feDisplacementMap in="SourceGraphic" in2="noise" scale="6"/></filter>
+              <filter id="wash"><feGaussianBlur stdDeviation="16"/></filter>
+            </defs>
+            <path d="M208 16C190 78 217 111 183 159c-28 41-24 82-55 120-25 31-10 70-29 105-15 28-38 63-28 119" fill="none" stroke="var(--sea2)" stroke-width="38" opacity=".10" filter="url(#wash)"/>
+            <path d="M220 4C196 75 225 111 188 162c-27 38-23 80-52 117-28 36-8 70-30 108-18 32-39 70-24 122" fill="none" stroke="var(--sea)" stroke-width="4" opacity=".32" filter="url(#rough)"/>
+            <path d="M219 52 C330 79 459 70 568 114" fill="none" stroke="#de6d54" stroke-width="7" stroke-linecap="round" filter="url(#rough)"/>
+            <path d="M568 114 C476 157 405 176 325 203 C282 218 251 243 230 274" fill="none" stroke="#d29d33" stroke-width="7" stroke-linecap="round" filter="url(#rough)"/>
+            <path d="M230 274 C205 317 188 359 162 402" fill="none" stroke="#3d8467" stroke-width="7" stroke-linecap="round" filter="url(#rough)"/>
+            <path d="M162 402 C278 426 395 447 526 455" fill="none" stroke="#796fa8" stroke-width="7" stroke-linecap="round" filter="url(#rough)"/>
+            <path d="M526 455 C641 470 744 477 849 487" fill="none" stroke="#1b6d75" stroke-width="7" stroke-linecap="round" filter="url(#rough)"/>
+            <g font-family="-apple-system,BlinkMacSystemFont,'PingFang SC',sans-serif" fill="var(--ink)">
+              <g transform="translate(210 52)"><circle r="10" fill="#de6d54"/><circle r="4" fill="var(--paper)"/><text x="18" y="-3" font-weight="750">旧金山</text><text x="18" y="16" font-size="13" fill="var(--muted)">住2晚</text></g>
+              <g transform="translate(568 114)"><circle r="10" fill="#de6d54"/><circle r="4" fill="var(--paper)"/><text x="18" y="-3" font-weight="750">Livermore</text><text x="18" y="16" font-size="13" fill="var(--muted)">始祖鸟 Outlet</text></g>
+              <g transform="translate(325 203)"><circle r="10" fill="#d29d33"/><circle r="4" fill="var(--paper)"/><text x="18" y="-3" font-weight="750">Google</text><text x="18" y="16" font-size="13" fill="var(--muted)">朋友带领内部参观</text></g>
+              <g transform="translate(230 274)"><circle r="11" fill="#d29d33"/><circle r="4" fill="var(--paper)"/><text x="18" y="-3" font-weight="750">Monterey</text><text x="18" y="16" font-size="13" fill="var(--muted)">住2晚</text></g>
+              <g transform="translate(162 402)"><circle r="11" fill="#3d8467"/><circle r="4" fill="var(--paper)"/><text x="18" y="-3" font-weight="750">San Simeon</text><text x="18" y="16" font-size="13" fill="var(--muted)">住1晚</text></g>
+              <g transform="translate(526 455)"><circle r="11" fill="#796fa8"/><circle r="4" fill="var(--paper)"/><text x="18" y="-3" font-weight="750">Camarillo</text><text x="18" y="16" font-size="13" fill="var(--muted)">住1晚</text></g>
+              <g transform="translate(849 487)"><circle r="11" fill="#1b6d75"/><circle r="4" fill="var(--paper)"/><text x="-16" y="-18" text-anchor="end" font-weight="750">洛杉矶</text><text x="-16" y="1" text-anchor="end" font-size="13" fill="var(--muted)">返程</text></g>
+            </g>
+          </svg>
+        </div>
+        <div class="map-legend"><span class="legend"><i class="dot" style="--c:#de6d54"></i>10/1 湾区</span><span class="legend"><i class="dot" style="--c:#d29d33"></i>10/2 Monterey</span><span class="legend"><i class="dot" style="--c:#3d8467"></i>10/3 Big Sur</span><span class="legend"><i class="dot" style="--c:#796fa8"></i>10/4 南加州</span><span class="legend"><i class="dot" style="--c:#1b6d75"></i>10/5 洛杉矶</span></div>
+      </div>
+      <div class="alert"><div class="alert-icon">!</div><div><strong>10月3日道路结论</strong><p>目前沿途没有全封闭绕行；Rocky Creek、Point Sur、Ventana–Nepenthe 有单线放行，合计预留45分钟。McWay Falls 观景步道关闭，不安排停车。当天早晨仍需复查 Caltrans。</p></div></div>
+    </section>
+
+    <section id="bookings">
+      <div class="section-head"><h2>已确认</h2><p>公开版不含姓名、订单号、票号、PIN与金额</p></div>
+      <div class="booking-grid">
+        <article class="card booking"><div class="booking-top"><h3>STARLUX 星宇航空</h3><span class="pill">已出票</span></div><div class="flight-list"><div class="flight"><b>JX236</b><span>9/29 20:10 香港 T1 → 22:10 台北 T1</span></div><div class="flight"><b>JX12</b><span>9/30 00:05 台北 T2 → 9/29 20:30 旧金山 T1</span></div><div class="flight"><b>JX1</b><span>10/6 00:35 洛杉矶 Terminal B → 10/7 05:40 台北 T2</span></div><div class="flight"><b>JX233</b><span>10/7 08:00 台北 T1 → 09:55 香港 T1</span></div></div><p>两位同行人同航班；每段托运行李2件，每件不超过23kg。</p></article>
+        <article class="card booking"><div class="booking-top"><h3>SIXT 租车</h3><span class="pill">已确认</span></div><div class="dates">10/1 08:00 → 10/5 晚</div><p><a href="https://www.google.com/maps/search/?api=1&query=Sixt+San+Francisco+Fairmont+Hotel+801+Powell+St" target="_blank" rel="noopener">取车：801 Powell St, San Francisco</a></p><p><a href="https://www.google.com/maps/search/?api=1&query=Sixt+LAX+5251+W+98th+St+Los+Angeles" target="_blank" rel="noopener">还车：5251 W 98th St, Los Angeles</a></p><p><a href="tel:+18887498227">+1 888-749-8227</a> · Toyota RAV4或同级 · 无限里程</p><p>安全目标：20:30还车；原订单22:30仅作为最晚合同时间，不作为出行计划。</p></article>
+        <article class="card booking"><div class="booking-top"><h3>Discovery Whale Watch</h3><span class="pill">已付款</span></div><div class="dates">10/2 08:15报到 · 09:00–13:00</div><p><a href="https://www.google.com/maps/search/?api=1&query=Discovery+Whale+Watch+66+Fishermans+Wharf+Monterey" target="_blank" rel="noopener">66 Fisherman’s Wharf, Monterey</a></p><p>停车：<a href="https://www.google.com/maps/search/?api=1&query=101+Washington+St+Monterey+CA" target="_blank" rel="noopener">101 Washington St</a> · <a href="tel:+18313727064">831-372-7064</a></p><p>2人；行程3.5–4小时；每个人都需提前完成电子免责书。</p></article>
+        <article class="card booking"><div class="booking-top"><h3>Marines’ Memorial Club & Hotel</h3><span class="pill">已确认</span></div><div class="dates">9/29入住 → 10/1 12:00退房</div><p><a href="https://www.google.com/maps/search/?api=1&query=Marines+Memorial+Club+Hotel+609+Sutter+St+San+Francisco" target="_blank" rel="noopener">609 Sutter St, San Francisco</a></p><p><a href="tel:+14152604654">+1 415-260-4654</a> · 16:00后入住 · 9/30及10/1含双早</p></article>
+        <article class="card booking"><div class="booking-top"><h3>El Castell Motel</h3><span class="pill">已确认</span></div><div class="dates">10/1入住 → 10/3 11:00退房</div><p><a href="https://www.google.com/maps/search/?api=1&query=El+Castell+Motel+2102+N+Fremont+St+Monterey" target="_blank" rel="noopener">2102 N Fremont St, Monterey</a></p><p><a href="tel:+18312307919">+1 831-230-7919</a> · 15:00后入住 · 不含早餐</p></article>
+        <article class="card booking"><div class="booking-top"><h3>Coast Riders Inn</h3><span class="pill">已确认</span></div><div class="dates">10/3 15:00–20:00入住 → 10/4 10:00退房</div><p><a href="https://www.google.com/maps/search/?api=1&query=Coast+Riders+Inn+9450+Castillo+Dr+San+Simeon" target="_blank" rel="noopener">9450 Castillo Dr, San Simeon</a></p><p><a href="tel:+18059246060">+1 805-924-6060</a> · 前台并非24小时 · 不含早餐</p></article>
+        <article class="card booking"><div class="booking-top"><h3>Fairfield Inn & Suites Camarillo</h3><span class="pill">已确认</span></div><div class="dates">10/4入住 → 10/5 11:00退房</div><p><a href="https://www.google.com/maps/search/?api=1&query=Fairfield+Inn+Suites+Camarillo+4444+Central+Ave" target="_blank" rel="noopener">4444 Central Ave, Camarillo</a></p><p><a href="tel:+18059889396">+1 805-988-9396</a> · 15:00后入住 · 10/5含双早</p></article>
+      </div>
+    </section>
+
+    <section id="days">
+      <div class="section-head"><h2>逐日行程</h2><p>点开每天查看路线与一键多点导航</p></div>
+      <div class="days" id="day-list"></div>
+    </section>
+
+    <section id="todos">
+      <div class="section-head"><h2>待办清单</h2><p>完成后告诉我，我会更新公开页面</p></div>
+      <div class="two-col">
+        <article class="card list-card"><h3>出发前</h3><ul class="plain-list"><li>完成两人的观鲸电子免责书<small>订单要求每位乘客都填写</small></li><li>确认 Google 朋友给出的见面入口和时间<small>园区内部不能按普通游客路线导航</small></li><li>预订 Elkhorn Slough 10/3 09:00皮划艇<small>目前仅为计划，尚无凭证</small></li><li>预订 Hearst Castle 10/4 09:00 Grand Rooms Tour<small>建议尽快；需提前20分钟到游客中心</small></li><li>决定是否预约 Getty Villa 10/5时段<small>免费但必须预约定时票</small></li></ul></article>
+        <article class="card list-card"><h3>途中确认</h3><ul class="plain-list"><li>10/2晚复查 Highway 1 与 Big Sur 公园状态<small>Caltrans、QuickMap和酒店前台三方核对</small></li><li>向 El Castell 确认退房后寄存行李<small>10/3皮划艇后取走，不延迟退房</small></li><li>10/3 17:30前评估是否直接去酒店<small>确保20:00前完成入住</small></li><li>10/5中午前确认洛杉矶朋友见面地点<small>据此保留或取消 Getty Villa/摩登家庭路线</small></li><li>10/5 19:30检查LAX路况<small>目标20:30还车，21:15前到Terminal B</small></li></ul></article>
+      </div>
+    </section>
+
+    <section id="tips">
+      <div class="section-head"><h2>实用贴士</h2><p>这趟路上真正用得上的提醒</p></div>
+      <div class="tips">
+        <article class="card tip"><div class="icon">🌫️</div><h3>湾区穿衣</h3><p>旧金山与Monterey早晚风大温差明显。用防风外层＋薄抓绒，比厚重单件更实用。</p></article>
+        <article class="card tip"><div class="icon">🐋</div><h3>观鲸防晕</h3><p>如需晕船药，至少提前30分钟服用；穿防水外套和包脚鞋，船上通常比岸上冷。</p></article>
+        <article class="card tip"><div class="icon">🚗</div><h3>车内零物品</h3><p>湾区及洛杉矶停车后不要让行李、购物袋或充电线留在可见位置，短暂停车也一样。</p></article>
+        <article class="card tip"><div class="icon">⛽</div><h3>Big Sur油量</h3><p>离开Monterey前加满油并下载离线地图。Big Sur部分路段无信号，油站少且价格高。</p></article>
+        <article class="card tip"><div class="icon">📷</div><h3>私人住宅</h3><p>《摩登家庭》三处外景都是有人居住的私人住宅，只在公共道路短暂停留，不进车道、不敲门。</p></article>
+        <article class="card tip"><div class="icon">🕒</div><h3>时区规则</h3><p>香港、台北为UTC+8；加州为PDT（UTC−7）。本页倒计时保存的是绝对时间，跨时区打开仍准确。</p></article>
+      </div>
+      <p class="fineprint">离线打开可查看全部内容；地图导航和实时道路查询需要网络。最后核对：2026年9月26日。</p>
+    </section>
+  </main>
+
+  <script>
+    const mapSearch = q => `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(q)}`;
+    const mapRoute = (origin,destination,waypoints=[],mode='driving') => `https://www.google.com/maps/dir/?api=1&origin=${encodeURIComponent(origin)}&destination=${encodeURIComponent(destination)}&waypoints=${encodeURIComponent(waypoints.join('|'))}&travelmode=${mode}`;
+    const days = [
+      {date:'09/29',week:'周二',title:'香港 → 台北 → 旧金山',note:'跨越日期变更线，抵达仍是9月29日',color:'#de6d54',route:['Hong Kong International Airport Terminal 1','Taiwan Taoyuan International Airport Terminal 1','San Francisco International Airport Terminal 1','Marines Memorial Club Hotel San Francisco'],events:[['17:10','抵达香港机场办理国际航班手续','HKT · 建议时间'],['20:10','JX236 香港起飞','HKT · 已出票'],['22:10','抵达台北桃园 T1','TST · 转机前往T2'],['00:05','JX12 台北起飞','9/30 TST · 已出票'],['20:30','抵达旧金山','9/29 PDT · 入境、取行李'],['22:15','Marines’ Memorial Club & Hotel','PDT · 预计入住']]},
+      {date:'09/30',week:'周三',title:'旧金山 · 海湾与西岸',note:'公共交通＋步行；Legion 17:15闭馆',color:'#cb7a52',route:['Marines Memorial Club Hotel San Francisco','Ferry Building San Francisco','North Beach San Francisco','Palace of Fine Arts','Presidio Tunnel Tops','Legion of Honor San Francisco','Lands End Lookout'],mode:'walking',events:[['08:00','酒店早餐','PDT'],['09:00','Ferry Building＋海滨步行','PDT'],['10:30','North Beach／City Lights一带','PDT'],['12:00','午餐；Dolores Park仅作机动备选','跨城绕路，时间紧就取消'],['13:30','Palace of Fine Arts','PDT'],['14:20','Presidio Tunnel Tops＋Crissy Field','PDT'],['15:40','Legion of Honor','PDT · 尚未购票','需订票'],['17:20','Lands End看海','日落前结束']]},
+      {date:'10/01',week:'周四',title:'取车 · Livermore · Google · Monterey',note:'始祖鸟10:00开门；Apple Park仅有余量才去',color:'#d29d33',route:['Marines Memorial Club Hotel San Francisco','SIXT Fairmont Hotel 801 Powell St San Francisco','Arcteryx San Francisco Premium Outlets Livermore','Googleplex Mountain View','Patagonia Outlet Santa Cruz','El Castell Motel Monterey'],events:[['07:20','早餐、退房、步行前往Fairmont','PDT'],['08:00','SIXT取车','801 Powell St · 已确认'],['10:00','Arc’teryx Livermore Outlet','2754 Livermore Outlets Dr · 开门即到'],['11:30','离开Livermore前往Google','按朋友给的入口导航'],['12:30','Google内部参观＋与朋友午餐','具体时间待朋友确认'],['15:15','Apple Park Visitor Center','只有Google提前结束才去','可取消'],['16:10','Patagonia Outlet Santa Cruz','415 River St'],['18:20','El Castell Motel入住','PDT · 已确认']]},
+      {date:'10/02',week:'周五',title:'观鲸 · Point Lobos · 17-Mile Drive',note:'下午紧凑，不再额外塞景点',color:'#c59731',route:['El Castell Motel Monterey','101 Washington St Monterey','Discovery Whale Watch Monterey','Point Lobos State Natural Reserve','Carmel-by-the-Sea','17-Mile Drive Pebble Beach','The Bench Pebble Beach'],events:[['08:15','观鲸报到','先停车再步行进码头'],['09:00','Discovery Whale Watch','3.5–4小时 · 已付款'],['13:15','码头附近简餐','给下船留出缓冲'],['14:00','Point Lobos','无需普通参观预约；停车位有限'],['15:45','Carmel短停','时间不足则直接进17-Mile Drive','可取消'],['16:20','17-Mile Drive','日落前开放'],['18:00','The Bench晚餐','尚未预订','需订位'],['19:45','返回El Castell Motel','PDT']]},
+      {date:'10/03',week:'周六',title:'皮划艇 · 精简 Big Sur · San Simeon',note:'不走封闭步道；19:00目标到店，20:00硬截止',color:'#3d8467',route:['El Castell Motel Monterey','Elkhorn Slough Moss Landing','Bixby Creek Bridge','Nepenthe Big Sur','Piedras Blancas Elephant Seal Rookery','Coast Riders Inn San Simeon'],events:[['07:45','退房并确认行李寄存','11:00退房，不能皮划艇后再退'],['09:00','Elkhorn Slough皮划艇','保留项目 · 尚未预订','需订票'],['12:15','返回Monterey取行李、加满油','最晚13:15离开'],['14:00','Bixby Creek Bridge','15–20分钟短停'],['15:00','Nepenthe一带短停','不安排正式午餐长停'],['17:35','Piedras Blancas象海豹观景点','若延误则取消'],['19:00','Coast Riders Inn','必须20:00前办理入住']]},
+      {date:'10/04',week:'周日',title:'Hearst Castle · Santa Barbara · Camarillo',note:'Santa Barbara改为自由参观和自拍',color:'#796fa8',route:['Coast Riders Inn San Simeon','Hearst Castle Visitor Center','San Luis Obispo Downtown','Santa Barbara County Courthouse','Camarillo Premium Outlets','Fairfield Inn Suites Camarillo'],events:[['08:10','退房前往Hearst Castle','酒店10:00退房'],['08:40','抵达游客中心','09:00场次需提前20分钟'],['09:00','Grand Rooms Tour','尚未预订','需订票'],['11:30','San Luis Obispo简餐','控制在45分钟'],['14:40','Santa Barbara County Courthouse','自由参观、自拍；16:30停止入内'],['16:15','驶向Camarillo','约1小时，视路况'],['17:20','Camarillo Premium Outlets','20:00闭门'],['20:15','Fairfield Inn入住','PDT · 已确认']]},
+      {date:'10/05',week:'周一',title:'洛杉矶西区 · 朋友见面 · 返程',note:'不去游乐园与好莱坞；朋友地点优先',color:'#1b6d75',route:['Fairfield Inn Suites Camarillo','Getty Villa Museum','121 S Cliffwood Ave Los Angeles','2211 Fox Hills Dr Los Angeles','10336 Dunleer Dr Los Angeles','SIXT LAX 5251 W 98th St','Tom Bradley International Terminal'],events:[['08:00','酒店早餐','已包含'],['10:30','退房驶向Malibu','PDT'],['11:45','Getty Villa','免费但需定时预约；可按朋友地点取消','需预约'],['14:15','《摩登家庭》西区外景路线','三处均为私人住宅，仅路边看外观','可取消'],['15:30','与洛杉矶朋友见面／机动时间','地点确认后重新排顺序'],['19:30','开始前往SIXT还车点','先加油、清理个人物品'],['20:30','建议完成还车','原订单22:30过晚'],['21:15','抵达Terminal B办理值机','国际航班建议至少提前3小时']]},
+      {date:'10/06',week:'周二',title:'洛杉矶 → 台北',note:'凌晨航班；不要把日期看成10月5日',color:'#2a7f87',route:['Tom Bradley International Terminal','Taiwan Taoyuan International Airport Terminal 2'],events:[['00:35','JX1洛杉矶起飞','PDT · 已出票'],['05:40','抵达台北桃园T2','10/7 TST · 转机']]},
+      {date:'10/07',week:'周三',title:'台北 → 香港',note:'旅程结束',color:'#2a7f87',route:['Taiwan Taoyuan International Airport Terminal 1','Hong Kong International Airport Terminal 1'],events:[['08:00','JX233台北起飞','TST · 已出票'],['09:55','抵达香港T1','HKT · 已出票']]}
+    ];
+
+    const routeSvg = color => `<svg viewBox="0 0 560 74" aria-hidden="true"><path d="M12 42 C80 7 126 66 198 34 S315 14 377 41 S471 62 548 25" fill="none" stroke="${color}" stroke-width="4" stroke-linecap="round" opacity=".8"/><g fill="${color}">${[12,198,377,548].map((x,i)=>`<circle cx="${x}" cy="${[42,34,41,25][i]}" r="6"/><circle cx="${x}" cy="${[42,34,41,25][i]}" r="2" fill="var(--paper)"/>`).join('')}</g></svg>`;
+    const list = document.getElementById('day-list');
+    days.forEach((d,i)=>{
+      const details=document.createElement('details');details.className='card day';if(i===0)details.open=true;
+      const origin=d.route[0],destination=d.route[d.route.length-1],waypoints=d.route.slice(1,-1);
+      details.innerHTML=`<summary><div class="date-big"><strong>${d.date}</strong><span>${d.week}</span></div><div class="day-title"><h3>${d.title}</h3><p>${d.note}</p></div><span class="chev">⌄</span></summary><div class="day-body"><div class="routebox">${routeSvg(d.color)}<a class="route-btn" href="${mapRoute(origin,destination,waypoints,d.mode||'driving')}" target="_blank" rel="noopener">打开全天导航 ↗</a></div><ol class="timeline" style="--day:${d.color}">${d.events.map(e=>`<li><time>${e[0]}</time><div class="event"><b>${placeLink(e[1])}${e[3]?`<span class="tag">${e[3]}</span>`:''}</b><small>${e[2]}</small></div></li>`).join('')}</ol></div>`;
+      list.appendChild(details);
+    });
+    function placeLink(text){
+      const places=['Marines’ Memorial Club & Hotel','Ferry Building','North Beach','Palace of Fine Arts','Presidio Tunnel Tops','Legion of Honor','Lands End','SIXT取车','Arc’teryx Livermore Outlet','Google内部参观＋与朋友午餐','Apple Park Visitor Center','Patagonia Outlet Santa Cruz','El Castell Motel入住','观鲸报到','Discovery Whale Watch','Point Lobos','Carmel短停','17-Mile Drive','The Bench晚餐','Elkhorn Slough皮划艇','Bixby Creek Bridge','Nepenthe一带短停','Piedras Blancas象海豹观景点','Coast Riders Inn','Grand Rooms Tour','San Luis Obispo简餐','Santa Barbara County Courthouse','Camarillo Premium Outlets','Fairfield Inn入住','Getty Villa','《摩登家庭》西区外景路线','建议完成还车','抵达Terminal B办理值机'];
+      const queries={'SIXT取车':'SIXT Fairmont Hotel 801 Powell St San Francisco','Google内部参观＋与朋友午餐':'Googleplex Mountain View','观鲸报到':'101 Washington St Monterey','建议完成还车':'SIXT LAX 5251 W 98th St','抵达Terminal B办理值机':'Tom Bradley International Terminal','Grand Rooms Tour':'Hearst Castle Visitor Center'};
+      const found=places.find(p=>text.includes(p));return found?`<a class="place" href="${mapSearch(queries[found]||found)}" target="_blank" rel="noopener">${text}</a>`:text;
+    }
+
+    const milestones=[
+      {at:'2026-09-29T17:10:00+08:00',title:'抵达香港机场办理值机',place:'香港国际机场 T1',zone:'Asia/Hong_Kong',label:'香港时间 HKT'},
+      {at:'2026-09-29T20:10:00+08:00',title:'JX236 香港起飞',place:'香港 T1 → 台北 T1',zone:'Asia/Hong_Kong',label:'香港时间 HKT'},
+      {at:'2026-09-29T22:10:00+08:00',title:'抵达台北，转往 T2',place:'桃园国际机场',zone:'Asia/Taipei',label:'台北时间 TST'},
+      {at:'2026-09-30T00:05:00+08:00',title:'JX12 台北起飞',place:'台北 T2 → 旧金山 T1',zone:'Asia/Taipei',label:'台北时间 TST'},
+      {at:'2026-09-29T20:30:00-07:00',title:'抵达旧金山',place:'SFO 国际机场 T1',zone:'America/Los_Angeles',label:'加州时间 PDT'},
+      {at:'2026-10-01T08:00:00-07:00',title:'SIXT 取车',place:'801 Powell St, San Francisco',zone:'America/Los_Angeles',label:'加州时间 PDT'},
+      {at:'2026-10-02T08:15:00-07:00',title:'观鲸报到',place:'Discovery Whale Watch, Monterey',zone:'America/Los_Angeles',label:'加州时间 PDT'},
+      {at:'2026-10-03T09:00:00-07:00',title:'Elkhorn Slough 皮划艇',place:'Moss Landing',zone:'America/Los_Angeles',label:'加州时间 PDT'},
+      {at:'2026-10-04T08:40:00-07:00',title:'Hearst Castle 报到',place:'Visitor Center',zone:'America/Los_Angeles',label:'加州时间 PDT'},
+      {at:'2026-10-05T20:30:00-07:00',title:'建议完成 LAX 还车',place:'SIXT Rental Car Facility',zone:'America/Los_Angeles',label:'加州时间 PDT'},
+      {at:'2026-10-06T00:35:00-07:00',title:'JX1 洛杉矶起飞',place:'Tom Bradley International Terminal',zone:'America/Los_Angeles',label:'加州时间 PDT'},
+      {at:'2026-10-07T08:00:00+08:00',title:'JX233 台北起飞',place:'桃园 T1 → 香港 T1',zone:'Asia/Taipei',label:'台北时间 TST'},
+      {at:'2026-10-07T09:55:00+08:00',title:'抵达香港，旅程完成',place:'香港国际机场 T1',zone:'Asia/Hong_Kong',label:'香港时间 HKT'}
+    ];
+    const ids=['days','hours','minutes','seconds'];
+    function updateCountdown(){
+      const now=Date.now();const next=milestones.find(x=>new Date(x.at).getTime()>now);
+      if(!next){document.getElementById('focus-title').textContent='旅程已完成，欢迎回家';document.getElementById('focus-meta').textContent='美国西海岸之旅 · 2026';ids.forEach(id=>document.getElementById('cd-'+id).textContent='00');document.getElementById('focus-note').textContent='这份手册仍可作为旅途回忆离线保存。';return}
+      const diff=Math.max(0,new Date(next.at).getTime()-now);const d=Math.floor(diff/86400000),h=Math.floor(diff/3600000)%24,m=Math.floor(diff/60000)%60,s=Math.floor(diff/1000)%60;
+      [d,h,m,s].forEach((v,i)=>document.getElementById('cd-'+ids[i]).textContent=String(v).padStart(2,'0'));
+      const when=new Intl.DateTimeFormat('zh-CN',{timeZone:next.zone,month:'long',day:'numeric',weekday:'short',hour:'2-digit',minute:'2-digit',hour12:false}).format(new Date(next.at));
+      document.getElementById('focus-title').textContent=next.title;document.getElementById('focus-meta').textContent=`${when} · ${next.label} · ${next.place}`;
+      document.getElementById('focus-note').textContent='倒计时按绝对时间每秒更新，跨时区打开也准确。';
+    }
+    updateCountdown();setInterval(updateCountdown,1000);
+  </script>
+</body>
+</html>
